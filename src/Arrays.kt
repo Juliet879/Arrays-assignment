@@ -27,7 +27,12 @@ fun complex() {
     var add = numbers[1].plus(numbers[5])
     println(add)
     println(numbers.indexOf(158))
-    println(Arrays.toString(numbers.sortedArray()))
+    var sortedNumbers = numbers.sortedArray()
+
+    for (number in sortedNumbers){
+        println(number)
+    }
+
 }
 
 fun sisters(name1:String,name2:String,name3:String):Array<String> {
