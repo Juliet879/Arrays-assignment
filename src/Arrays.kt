@@ -24,7 +24,7 @@ fun capitals() {
 fun complex() {
     var numbers = arrayOf(32,17,4,213,78,43,90,31,3,73,11,158,62)
 
-    var add = numbers[1].plus(numbers[5])
+    var add = numbers[1].plus(numbers[4])
     println(add)
     println(numbers.indexOf(158))
     var sortedNumbers = numbers.sortedArray()
