@@ -4,6 +4,8 @@ fun main() {
     continents("Africa","Asia","Europe","North America")
     capitals()
     complex()
+    var result = sisters("Juliet","Whitney","Faith")
+    println(Arrays.toString(result))
 
 }
 fun continents(cont1:String,cont2:String,cont3:String,cont4:String) {
@@ -26,4 +28,9 @@ fun complex() {
     println(add)
     println(numbers.indexOf(158))
     println(Arrays.toString(numbers.sortedArray()))
+}
+
+fun sisters(name1:String,name2:String,name3:String):Array<String> {
+
+    return arrayOf(name1,name2,name3)
 }
